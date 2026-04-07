@@ -13,8 +13,9 @@
 .*\\.json @rmilto
 
 ## Folders
-/src/** @rmilto
-/tests/** @rmilto
+/docs/.* @rmilto
+/src/.* @rmilto
+/tests/.* @rmilto
 
 #######################################################
 # Using Github:
@@ -31,5 +32,5 @@
 # *.json @roland-milto
 
 ## Folders
-# /src/ @roland-milto
-# /tests/ @roland-milto
+# /src/** @roland-milto
+# /tests/** @roland-milto
