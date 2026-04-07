@@ -1,0 +1,6 @@
+# Make sure this file is compatible with .npmignore and .gitignore
+
+coverage/
+dist/
+docs/
+node_modules/
