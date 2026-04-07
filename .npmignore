@@ -1,0 +1,84 @@
+# Make sure this file is compatible with .gitignore and .prettierignore
+
+# Node.js dependencies
+node_modules/
+
+# Java- and TypeScript sources
+# source/ - covered by node_modules/
+src/
+
+# Compiled or interpreted output
+# build/  - covered by node_modules/
+# dist/
+# out/
+
+# Configuration files
+/*.config.js
+/*.config.json
+/*.config.yml
+tsconfig.json
+
+# Documentation
+docs/
+documentation/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+# *.env     - covered by .env
+
+# Examples
+demo/
+# example/  - covered by node_modules/
+# examples/ - covered by node_modules/
+
+# IDE configuration
+.idea/
+.vscode/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Scripts
+prebuild/
+scripts/
+*.gen.*
+*.run.*
+
+# Temporary files
+cache/
+tmp/
+temporary/
+*.tmp
+*.temp
+
+# Tests
+__tests__/
+coverage/
+# test/     - covered by node_modules/
+tests/
+*.lcov
+# *.spec.*  - covered by node_modules/
+# *.test.*  - covered by node_modules/
+
+# Special files
+.gitignore
+.gitmodules
+.npmignore
+.prettierignore
+package-lock.json
+
+# Other
+# *.tsbuildinfo - covered by node_modules/
+# *.map         - covered by node_modules/
+Jenkinsfile
+# Makefile      - covered by node_modules/

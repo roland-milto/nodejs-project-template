@@ -1,0 +1,84 @@
+# Make sure this file is compatible with .npmignore and .prettierignore
+
+# Node.js dependencies
+node_modules/
+
+# Java- and TypeScript sources
+# source/
+# src/
+
+# Compiled or interpreted output
+build/
+dist/
+out/
+
+# Configuration files (need to be published)
+# /*.config.js
+# /*.config.json
+# /*.config.yml
+# tsconfig.json
+
+# Documentation (need to be published)
+# docs/
+# documentation/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Examples (need to be published)
+# demo/
+# example/
+# examples/
+
+# IDE configuration
+.idea/
+.vscode/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Scripts
+# prebuild/
+# scripts/
+# *.gen.*
+# *.run.*
+
+# Temporary files
+cache/
+tmp/
+temporary/
+*.tmp
+*.temp
+
+# Tests (need to be published)
+# __tests__/
+# coverage/
+# test/
+# tests/
+# *.lcov
+# *.spec.*
+# *.test.*
+
+# Special files (need to be published)
+# .gitignore
+# .gitmodules
+# .npmignore
+# .prettierignore
+package-lock.json
+
+# Other (need to be published)
+*.tsbuildinfo
+*.map
+Jenkinsfile
+Makefile
