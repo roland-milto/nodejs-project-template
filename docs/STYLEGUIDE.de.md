@@ -1,3 +1,11 @@
+git config --global init.defaultBranch main
+
+Wenn vergessen wurde den Standard-Branch global umzubenennen:
+git branch -m <alter_name> <neuer_name>
+
+Dennoch muss danach die globale Konfiguration angepasst werden!
+
+
 # Style Guide für Java- und TypeScript-Projekte
 
 ## Ziel
